@@ -1,0 +1,28 @@
+{
+    "name": "froeschke/modular-laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Froeschke\\ModularLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luca Fröschke",
+            "email": "luca@froeschke.net"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/console": "^10.0|^11.0",
+        "illuminate/filesystem": "^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Froeschke\\ModularLaravel\\ModularLaravelServiceProvider"
+            ]
+        }
+    }
+}

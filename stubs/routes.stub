@@ -1,0 +1,7 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('{{moduleName}}', function () {
+    return '{{moduleName}} module default route';
+});
