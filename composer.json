@@ -7,6 +7,11 @@
             "Froeschke\\ModularLaravel\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Froeschke\\ModularLaravel\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Luca Fröschke",
@@ -24,5 +29,15 @@
                 "Froeschke\\ModularLaravel\\ModularLaravelServiceProvider"
             ]
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.35|^3.0|^4.0",
+        "pestphp/pest-plugin-laravel": "^2.4|^3.0|^4.0",
+        "orchestra/testbench": "^8.22|^9.0|^10.0"
     }
 }
