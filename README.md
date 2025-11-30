@@ -4,7 +4,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/froeschke/modular-laravel.svg?style=flat-square)](https://packagist.org/packages/froeschke/modular-laravel)
 [![Total Downloads](https://img.shields.io/packagist/dt/froeschke/modular-laravel?style=flat-square)](https://packagist.org/packages/froeschke/modular-laravel)
 
-This packages simplifies making your Laravel application modular.
+This packages simplifies making your Laravel application modular. It is intentionally kept simple, if you need more features check out [nwidart/laravel-modules](https://github.com/nWidart/laravel-modules)
 
 The structure is inspired by [this Laracon Talk](https://speakerdeck.com/avosalmon/modularising-the-monolith-laracon-online-winter-2022) from Ryuta Hamasaki ([Repository](https://github.com/avosalmon/modular-monolith-laravel))
 
