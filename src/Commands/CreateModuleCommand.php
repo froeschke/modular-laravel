@@ -19,7 +19,7 @@ class CreateModuleCommand extends Command
     public function handle(): int
     {
         if (! File::exists(base_path('/modules'))) {
-            $this->error('Please run php artisan module:install first!');
+            $this->error('Please run php artisan modules:install first!');
 
             return Command::FAILURE;
         }
