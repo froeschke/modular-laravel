@@ -46,6 +46,6 @@ it('fails if modules directory does not exist', function () {
   File::deleteDirectory(base_path('modules'));
 
   $this->artisan('modules:create', ['name' => 'TestModule'])
-    ->expectsOutput('Please run php artisan module:install first!')
+    ->expectsOutput('Please run php artisan modules:install first!')
     ->assertExitCode(1);
 });
